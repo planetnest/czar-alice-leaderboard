@@ -5,6 +5,7 @@ describe("Leaderboard", () => {
   it("uses Dense Ranking", () => {
     expect(rank(rankTable, 40)).toBe(3);
     expect(rank(rankTable, 50)).toBe(2);
+    expect(rank(rankTable, 120)).toBe(1);
   });
 
   it("returns array for array scores input", () => {
