@@ -11,4 +11,9 @@ describe("Leaderboard", () => {
     const scores = [3,45];
     expect(rank(rankTable, scores)).toBeInstanceOf(Array);
   });
+
+  it("computes ranking perfectly", () => {
+    const scores = [5,25,50,120];
+    expect(rank(rankTable, scores)).toEqual([6,4,2,1]);
+  });
 });
