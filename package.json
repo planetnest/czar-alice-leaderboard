@@ -1,0 +1,10 @@
+{
+  "name": "alice-leaderboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Banjo Mofesola Paul",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.2.0"
+  }
+}
